@@ -6,15 +6,11 @@ import {
   SafeAreaView
 } from 'react-native'
 
-function App() {
+function Apppro() {
   return (
     <SafeAreaView>
       <View>
-        <Text>
-          hello world !
-        </Text>
-        <Text>umer aziz</Text>
-        <Text>umer zestymec</Text>
+  
       </View>
     </SafeAreaView>
   )
@@ -22,6 +18,4 @@ function App() {
 
 
 
-
-
-export default App
+export default Apppro
