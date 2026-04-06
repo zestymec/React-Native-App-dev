@@ -18,4 +18,4 @@ function Apppro() {
 
 
 
-export default Apppro
+export default Apppro;
