@@ -7,7 +7,8 @@ import {
 } from 'react-native'
 
 function App() {
-  <SafeAreaView>
+  return(
+    <SafeAreaView>
     <View>
     <Text>
       hello world !
@@ -15,6 +16,7 @@ function App() {
     <Text>umer aziz</Text>
   </View>
   </SafeAreaView>
+  )
 }
 
 
