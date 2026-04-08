@@ -11,8 +11,9 @@ function Apppro() {
   return (
     <SafeAreaView style={Style.container}> 
       <View>
-        <Text style={Style.textStyle}>umer</Text> 
+        <Text style={isDarkmode ? textblack : textwhite}>My name is "M umer aziz"</Text> 
       </View>
+
     </SafeAreaView>
   )
 }
@@ -20,14 +21,15 @@ function Apppro() {
 const Style = StyleSheet.create({ 
   container: {                    
     flex: 1,
-    backgroundColor: 'white',
+   alignItems:'center',
+   justifyContent:"center"
   },
-  textStyle: {
+  textwhite: {
+    color: 'white',
+  },
+  textblack: {
     color: 'black',
-    fontSize: 20,
-  
-
-  }                               
+  }
 });                               
 
 export default Apppro;
