@@ -52,3 +52,8 @@ Yahan advanced concepts apply kiye gaye hain:
 
 ✅ Dark Mode compatibility aur dynamic theme management.
 
+👤 Author
+
+M Umer Aziz Software Engineer | Web & Mobile Developer 
+
+<p align="center">Created with ❤️ by M Umer Aziz</p>
