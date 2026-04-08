@@ -4,14 +4,16 @@ import {
   Text,
   View,
   SafeAreaView,
-  StyleSheet
+  StyleSheet,
+  useColorScheme
 } from 'react-native'
 
 function Apppro() {
+  const isDarkmode = useColorScheme() ==='dark'
   return (
     <SafeAreaView style={Style.container}> 
       <View>
-        <Text style={isDarkmode ? textblack : textwhite}>My name is "M umer aziz"</Text> 
+        <Text style={isDarkmode ? Style.textblack : Style.textwhite}>My name is "M umer aziz"</Text> 
       </View>
 
     </SafeAreaView>
